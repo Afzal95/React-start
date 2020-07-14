@@ -6,14 +6,14 @@
 import React from "react";
 import ReactDom from "react-dom";
 
+//rendering js code inside html by putting inside {} braces.
+
+const no = 5;
+
 ReactDom.render(
-<div>
-  <h1>My Favourites</h1>
-  <ul>
-    <li>Cricket</li>
-    <li>Running</li>
-    <li>Coffee</li>
-  </ul>
-</div>,
-document.getElementById("root")
+  <div>
+    <h1>Hello Afzal !</h1>
+    <p>Your favourite no is {no}</p>
+  </div>,
+  document.getElementById("root")
 );
